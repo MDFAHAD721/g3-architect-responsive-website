@@ -119,7 +119,7 @@ main{
 .feauters{
   display: flex;
   gap: 80px;
-  margin-bottom: 130px;
+  margin-bottom: 0px;
 }
 .feature-title {
   padding-left: 21px;
@@ -140,10 +140,13 @@ main{
   font-size: 1.25rem;
   color: #131313;
 }
-/*  AMI EI BUTTON TAKE RESPONSIVE AR KORTE PARLAM NAH, */
+.feature-button{
+  text-align: center;
+}
 .experience-btn{
-  margin-left: -50px;
-  margin-top: -200px;
+  margin-right: -70px;
+  margin-top: -1350px;
+  margin-bottom: 50px;
 }
 #number{
   font-weight: bold;
@@ -242,17 +245,21 @@ main{
   }
   .side-area img{
     width: 100%;
+  }
+  .feature-button{
+    text-align: center;
   } 
   .experience-btn{
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
   }
   .feauters{
     margin-bottom: 30px;
   }
   .experience-btn{
-    margin-left: 55px;
-    margin-top: 40px; 
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
   .rewards-container{
     grid-template-columns: repeat(1,1fr);
@@ -325,8 +332,20 @@ main{
   .side-area img{
     width: 100%;
   }
+  .feature-button{
+    text-align: center;
+  } 
   .experience-btn{
-    margin: auto 250px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .feauters{
+    margin-bottom: 30px;
+  }
+  .experience-btn{
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
   .facts-container{
     text-align: center;
